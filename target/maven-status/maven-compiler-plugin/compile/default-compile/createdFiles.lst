@@ -1,0 +1,8 @@
+OrangeHRM\Web\Base\Constent.class
+OrangeHRM\Web\Page\SideNavigationBarPage.class
+OrangeHRM\Web\Base\Locater\SideNavigationBarLocater.class
+OrangeHRM\Web\Base\App.class
+OrangeHRM\Web\Base\Page.class
+OrangeHRM\Web\Base\Locater\App.class
+OrangeHRM\Web\Page\LoginPage.class
+OrangeHRM\Web\Base\Locater\LoginPageLocater.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="OrangeHRM.Web.Listener.TestListener"/>
+  </listeners>
+  <test name="Login and Navigation Test(failed)">
+    <classes>
+      <class name="OrangeHRM.Web.TestCase.LoginPageTestCase">
+        <methods>
+          <include name="invalidPassword"/>
+          <include name="setUp"/>
+          <include name="invalidUserNameandPasswordErrorMassage"/>
+          <include name="invalidUserName"/>
+          <include name="BlankUserName"/>
+        </methods>
+      </class> <!-- OrangeHRM.Web.TestCase.LoginPageTestCase -->
+    </classes>
+  </test> <!-- Login and Navigation Test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Test Suite] -->
