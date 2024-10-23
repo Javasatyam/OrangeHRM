@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite">
+      <listeners>
+        <listener class-name="OrangeHRM.Web.Listener.TestListener" />
+    </listeners>
+    <test name="Login and Navigation Test">
+        <classes>
+            <!-- First, run the loginTest in LoginPageTestCase -->
+            <class name="OrangeHRM.Web.TestCase.LoginPageTestCase" />
+          
+            
+        </classes>
+    </test>
+
+</suite>
